@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.booking-page-main{
+ padding: 5%;
+  background-color: aquamarine;
+}
+.bookingpage-cover{
+    width: 40%;
+    padding-top: 5%;
+    background-color: white;
+    height: 600px;
+}
+.priceribbon{
+   
+    height: 70px;
+    background-color: #654141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.inputfields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow:#808080b5 5px 5px 10px 3px;
+}
+.input-group{
+    box-shadow: #8080809e 1px 1px 8px 2px;
+}
+.inputfields input{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+/* CSS for DateRangePicker */
+.date1input, .date2input {
+    padding: 10px 15px !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  
+  .date1input, .date2input:focus {
+    box-shadow: none !important;
+    border: 1px solid #512DA8;
+    outline-width: 0;
+  }
+  
+  ::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+  }
+  
+  button:focus {
+    box-shadow: none !important;
+    outline-width: 0;
+  }
+  
+  .datepicker {
+    background-color: #fff;
+    border: none;
+    border-radius: 0 !important;
+  }
+  
+  .datepicker-dropdown {
+    top: 0;
+    left: 0;
+  }
+  
+  .datepicker table tr td.today, span.focused {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#FFF3E0, #FFE0B2);
+  }
+  
+  .datepicker table tr td.today.range {
+    background-image: linear-gradient(#eeeeee, #eeeeee) !important;
+    border-radius: 0 !important;
+  }
+  
+  thead tr:nth-child(3) th {
+    font-weight: bold !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .dow, .old-day, .day, .new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important;
+  }
+  
+  .old-day:hover, .day:hover, .new-day:hover, .month:hover, .year:hover, .decade:hover, .century:hover {
+    border-radius: 50% !important;
+    background-color: #eee;
+  }
+  
+  .active {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#90CAF9, #64B5F6) !important;
+    color: #fff !important;
+  }
+  
+  .range-start, .range-end {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#FFA726, #FFA726) !important;
+  }
+  
+  .prev, .next, .datepicker-switch {
+    border-radius: 0 !important;
+    padding: 10px 10px 10px 10px !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .prev:hover, .next:hover, .datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1;
+  }
+  
+.border-box{
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.3s;
+    box-shadow: #808080a8 0px 0px 4px 0px;
+}
+.border-box:hover{
+   
+    scale: 0.9;
+}
+.value-box{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.counters p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+} 
+.counters{
+    width: 100%;
+}
+.countersec{
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.totalsection{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow:#808080b5 5px 5px 10px 3px;
+}
+.total{
+    width: 100%;
+    text-align: start;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #512DA8;
+}
+.valuesection{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.valuesection p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;  
+}
+.btnsec{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.btnsec p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: orange;
+    font-style: normal; 
+}
+.bookbtn{
+    background-color: #FFA726;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal; 
+    border-radius: 10px;
+    border: none;
+    box-shadow: #1e1501d4 1px 3px 6px 0px;
+}
+.borderline{
+    width: 90%;
+    border-bottom: 2px #80808094 solid;
+}
+.mobile{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.number{
+    width: 100%;
+    border: white 2px solid;
+    border-radius: 5px;
+    box-shadow: #1e1501d4 1px 3px 6px 0px;
+    padding: 2%;
+}
+
+  
